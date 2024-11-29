@@ -28,28 +28,8 @@
     font-weight: bold;
     font-size: 20px;
 }
-.right{
-    margin: 10px;
-    font-weight: lighter;
-    color: rgb(145, 143, 143);
-    cursor: pointer;
-}
 
-.right button{
-    padding: 5px;
-    height: 100%;
-    width: 50px;
-    border: 1px solid #805d80;
-    font-weight: bold;
-    color: #805d80;
-    cursor: pointer;
-}
 
-.right button:hover{
-    background-color: #181818;
-    color: white;
-    
-}
 
 /* second part */
 #header2{
@@ -90,7 +70,7 @@
     margin: 10px 10px 10px 0px;
     width: 190px;
     height: 60px;
-    color: grey;
+    color: black;
     font-weight: bolder;
     border: 1px solid #805d80;
     
@@ -378,3 +358,223 @@
     font-size: 32px;
     text-align: center;
 }
+
+/* About Section */
+.right {
+    margin: 10px;
+    font-weight: lighter;
+    font-size: 18px;
+    /* text-transform: uppercase; */
+    cursor: pointer;
+    transition: color 0.3s ease-in-out;
+}
+
+.right a{
+    color: rgb(145, 143, 143);
+    text-decoration: none;
+
+}
+
+.right:hover {
+    color: white;
+    text-decoration: underline;
+}
+
+/* Button Styling */
+.right button {
+    padding: 5px 15px;
+    border: 1px solid #805d80;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #805d80;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+}
+
+.right button:hover {
+    background-color: #805d80;
+    color: white;
+}
+
+/* About Section Styling */
+#about-section {
+    background-color: black;
+    color: white;
+    font-family: "Onest", sans-serif;
+    line-height: 1.8;
+    padding: 50px 100px;
+}
+
+#about-section h1 {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 100px;
+    color: #9290C3;
+    text-align: center;
+    text-decoration: underline;
+    text-underline-offset: 9px;
+}
+
+#about-section p {
+    font-size: 18px;
+    color: rgb(200, 200, 200);
+    margin-bottom: 20px;
+}
+
+#about-section p strong {
+    color: #9290C3;
+    font-size: 20px;
+}
+
+/* General Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Container */
+  #contact-container {
+    background-color: black;
+    color: white;
+    font-family: "Onest", sans-serif;
+    line-height: 1.8;
+  }
+  
+
+
+
+  /* Header Styling */
+  #header {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+    padding-top: 28px;
+  }
+  
+  .part {
+    display: flex;
+    font-family: "Onest", sans-serif;
+    font-weight: bolder;
+  }
+  
+  .left {
+    margin: 10px;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  
+  .right {
+    margin: 10px;
+    font-weight: lighter;
+    color: rgb(145, 143, 143);
+    cursor: pointer;
+    font-size: 18px;
+    text-transform: uppercase;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  .right:hover {
+    color: white;
+  }
+  
+  .right button {
+    padding: 5px 15px;
+    border: 1px solid #805d80;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    color: #805d80;
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .right button:hover {
+    background-color: #805d80;
+    color: white;
+  }
+  
+  /* Contact Section */
+  #contact-section {
+    padding: 50px 100px;
+    text-align: center;
+  }
+  
+  #contact-section h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #805d80;
+    margin-bottom: 20px;
+  }
+  
+  #contact-section p {
+    font-size: 18px;
+    color: rgb(200, 200, 200);
+    margin-bottom: 40px;
+  }
+  
+  /* Form Styles */
+  #contact-form {
+    width: 60%;
+    margin: 0 auto;
+    background-color: #181818;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+    text-align: left;
+  }
+  
+  label {
+    display: block;
+    font-size: 16px;
+    color: #805d80;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    color: white;
+    background-color: black;
+    border: 1px solid #805d80;
+    border-radius: 5px;
+    outline: none;
+  }
+  
+  input::placeholder,
+  textarea::placeholder {
+    color: rgb(145, 143, 143);
+  }
+  
+  textarea {
+    resize: vertical;
+    height: 100px;
+  }
+  
+  button[type="submit"] {
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #805d80;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  button[type="submit"]:hover {
+    background-color: white;
+    color: #805d80;
+    border: 1px solid #805d80;
+  }
+  
